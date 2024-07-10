@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/6babc033b8.js" crossorigin="anonymous"></script>    <title>Portfolio</title>
+</head>
+<body class="bg-gray-100">
+    <!--Header-->
+    <header class="bg-teal-600 text-white p-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold cursor-pointer">Moe<span class="text-teal-400">Bamba</span></h1>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="#home" class="hover:text-gray-300">Home</a></li>
+                <li><a href="#Projects" class="hover:text-gray-300">Projects</a></li>
+                <li><a href="#Contact" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="flex space-x-4">
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="hover:text-gray-300"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/yourprofile" target="_blank" class="hover:text-gray-300"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/yourprofile" target="_blank" class="hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+        </div>
+    </header>
+    <main>
+        <!--Hero Section-->
+        <section id="home" class="h-screen bg-cover bg-center text-white" style="background-image:url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg);">
+            <div class="h-full flex flex-col justify-center items-center bg-black bg-opacity-50">
+                <h2 class="text-4xl md:text-6xl mb-4 font-bold"> Hello, I'm Moe Bamba</h2>
+                <p class="text-xl md:text-xl"> Welcome to my world of web development design and software testing. I'm Mouhamadou Bamba Djigal, a Full-Stack MERN Developer a Graphic Designer and a QA Tester specializing in crafting seamless digital experiences using Next.js. Let's turn ideas into reality.</p>
+            </div>
+        </section>
+        <!-- Skills Section -->
+        <section id="Skills" class="p-8">
+            <h2 class="text-3xl mb-6 text-center font-bold">My Skills</h2>
+            <div class="flex flex-wrap justify-center space-x-4 space-y-4">
+                <div class="bg-white p-4 shadow-md rounded-md flex items-center space-x-2">
+                    <i class="fab fa-js fa-fade text-yellow-500 text-2xl"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="bg-white p-4 shadow-md rounded-md flex items-center space-x-2">
+                    <i class="fas fa-paint-brush fa-fade text-blue-500 text-2xl"></i>
+                    <span>TailwindCss</span>
+                </div>
+                <div class="bg-white p-4 shadow-md rounded-md flex items-center space-x-2">
+                    <i class="fab fa-html5 fa-fade text-orange-500 text-2xl"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="bg-white p-4 shadow-md rounded-md flex items-center space-x-2">
+                    <i class="fab fa-react fa-fade text-blue-400 text-2xl"></i>
+                    <span>ReactJs</span>
+                </div>
+                <div class="bg-white p-4 shadow-md rounded-md flex items-center space-x-2">
+                    <i class="fab fa-node fa-fade text-green-500 text-2xl"></i>
+                    <span>NodeJs</span>
+                </div>
+                <div class="bg-white p-4 shadow-md rounded-md flex items-center space-x-2">
+                    <i class="fas fa-server fa-fade text-gray-500 text-2xl"></i>
+                    <span>Express</span>
+                </div>
+                <div class="bg-white p-4 shadow-md rounded-md flex items-center space-x-2">
+                    <i class="fa-brands fa-python fa-fade text-yellow-400 text-2xl"></i>
+                    <span>Python</span>
+                </div>
+                <div class="bg-white p-4 shadow-md rounded-md flex items-center space-x-2">
+                    <i class="fa-solid fa-n fa-fade text-stone-700 font-bold text-2xl"></i>
+                    <span>NextJs</span>
+                </div>
+            </div>
+        </section>
+        <!-- Projects Section -->
+        <section id="Projects" class="p-8 bg-gray-200">
+            <h2 class="text-3xl mb-6 text-center font-bold">My Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- Projects Cards -->
+                <div class="bg-white shadow-md rounded-md overflow-hidden">
+                    <img src="/Projects/Notes.png" alt="Notes App" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Notes App</h3>
+                        <p class="mt-2">A Simple Mern Notes App</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-md overflow-hidden">
+                    <img src="/Projects/Qr-Code-Gen.png" alt="Notes App" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Qr Code Generator</h3>
+                        <p class="mt-2">A Simple QRCode Generator</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-md overflow-hidden">
+                    <img src="/Projects/Todo.png" alt="Notes App" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Todo List</h3>
+                        <p class="mt-2">A Simple Todo List App</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-md overflow-hidden">
+                    <img src="/Projects/1.png" alt="Notes App" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">E-Commerce Website</h3>
+                        <p class="mt-2">An E-Commerce websit built with MERN Technology</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-md overflow-hidden">
+                    <img src="/Projects/Express-test.png" alt="Notes App" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Express Test</h3>
+                        <p class="mt-2">Testing in Express JS</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-md overflow-hidden">
+                    <img src="/Projects/Movie-list.png" alt="Notes App" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Movie List</h3>
+                        <p class="mt-2">A Movie List App</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="Contact" class="p-6">
+            <h2 class="text-3xl mb-6 text-center font-bold"> Contact Me</h2> 
+            <form class="max-w-lg mx-auto bg-white p-6 shadow-md rounded-md">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700 font-bold">Your Name:</label>
+                    <input type="text" id="name" class="w-full p-2 border border-gray-300 rounded-md">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700 font-bold">Your Email:</label>
+                    <input type="email" id="email" class="w-full p-2 border border-gray-300 rounded-md">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700 font-bold">Your Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10" class="w-full p-2 border border-gray-300 rounded-md"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-teal-600 text-white p-2 rounded-md hover:bg-teal-500">Send Message</button>
+            </form>        
+        </section>
+    </main>
+    <!-- Footer -->
+     <footer class="bg-teal-600 text-white p-4 text-center">
+        <div class="flex justify-center space-x-4 mb-4">
+            <!-- Social icons -->
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="hover:text-gray-300 text-2xl"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/moebamba01" target="_blank" class="hover:text-gray-300 text-2xl"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/yourprofile" target="_blank" class="hover:text-gray-300 text-2xl"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 Mouhamadou Bamba Djigal. All Rights Reserved.</p>
+     </footer>
+</body>
+</html>
